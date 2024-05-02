@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Quiz App</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="quiz-container">
+		<div class="quiz-header">
+			<h1>Online Quiz App</h1>
+			<p id="quiz-description">Test your knowledge with our online quiz!</p>
+			<p id="quiz-timer">Time remaining: <span id="timer">10:00</span></p>
+			<p id="quiz-score">Score: <span id="score">0</span> / <span id="total-questions">0</span></p>
+			<p id="quiz-grade"></p>
+		</div>
+		<div class="quiz-questions">
+			<div class="quiz-questions">
+				<div class="question">
+					<p>1. What is the correct HTML tag for the largest heading?</p>
+					<input type="radio" name="question1" value="A"> &lt;h1&gt;<br>
+					<input type="radio" name="question1" value="B"> &lt;h2&gt;<br>
+					<input type="radio" name="question1" value="C"> &lt;h3&gt;<br>
+					<input type="radio" name="question1" value="D"> &lt;h4&gt;<br>
+				</div>
+				<div class="question">
+					<p>2. Which of the following is not a JavaScript data type?</p>
+					<input type="radio" name="question2" value="A"> Number<br>
+					<input type="radio" name="question2" value="B"> String<br>
+					<input type="radio" name="question2" value="C"> Boolean<br>
+					<input type="radio" name="question2" value="D"> Null<br>
+				</div>
+				<div class="question">
+					<p>3. What is the correct syntax for referring to an external script called "xxx.js"?</p>
+					<input type="radio" name="question3" value="A"> &lt;script href="xxx.js"&gt;<br>
+					<input type="radio" name="question3" value="B"> &lt;script name="xxx.js"&gt;<br>
+					<input type="radio" name="question3" value="C"> &lt;script src="xxx.js"&gt;<br>
+					<input type="radio" name="question3" value="D"> &lt;script file="xxx.js"&gt;<br>
+				</div>
+				<div class="question">
+					<p>4. What is the term for a computer program that is designed to perform a specific task?</p>
+					<input type="radio" name="question4" value="A"> Algorithm<br>
+					<input type="radio" name="question4" value="B"> Data Structure<br>
+					<input type="radio" name="question4" value="C"> Operating System<br>
+					<input type="radio" name="question4" value="D"> Compiler<br>
+				</div>
+				<div class="question">
+					<p>5. Which of the following is a fundamental concept in object-oriented programming?</p>
+					<input type="radio" name="question5" value="A"> Encapsulation<br>
+					<input type="radio" name="question5" value="B"> Recursion<br>
+					<input type="radio" name="question5" value="C"> Inheritance<br>
+					<input type="radio" name="question5" value="D"> Polymorphism<br>
+				</div>
+				<div class="question">
+					<p>6. What is the term for a data structure that stores a collection of elements?</p>
+					<input type="radio" name="question6" value="A"> Array<br>
+					<input type="radio" name="question6" value="B"> List<br>
+					<input type="radio" name="question6" value="C"> Set<br>
+					<input type="radio" name="question6" value="D"> Map<br>
+				</div>
+				<div class="question">
+					<p>7. Which of the following is a programming paradigm that uses a model of computation based on the concept of "state"?</p>
+					<input type="radio" name="question7" value="A"> Functional Programming<br>
+					<input type="radio" name="question7" value="B"> Object-Oriented Programming<br>
+					<input type="radio" name="question7" value="C"> Procedural Programming<br>
+					<input type="radio" name="question7" value="D"> Declarative Programming<br>
+				</div>
+				<div class="question">
+					<p>8. What is the term for a programming language that is designed to be easy to read and write?</p>
+					<input type="radio" name="question8" value="A"> Assembly Language<br>
+					<input type="radio" name="question8" value="B"> Machine Language<br>
+					<input type="radio" name="question8" value="C"> High-Level Language<br>
+					<input type="radio" name="question8" value="D"> Low-Level Language<br>
+				</div>
+				<div class="question">
+					<p>9. Which of the following is a type of data structure that stores elements in a non-linear fashion?</p>
+					<input type="radio" name="question9" value="A"> Array<br>
+					<input type="radio" name="question9" value="B"> Linked List<br>
+					<input type="radio" name="question9" value="C"> Stack<br>
+					<input type="radio" name="question9" value="D"> Queue<br>
+				</div>
+				<div class="question">
+					<p>10. What is the term for a programming language that is designed to be easy to read and write?</p>
+					<input type="radio" name="question10" value="A"> Assembly Language<br>
+					<input type="radio" name="question10" value="B"> Machine Language<br>
+					<input type="radio" name="question10" value="C"> High-Level Language<br>
+					<input type="radio" name="question10" value="D"> Low-Level Language<br>
+				</div>
+			</div>
+			
+		</div>
+		<div class="quiz-footer">
+			<button id="previous-btn">Previous</button>
+			<button id="next-btn">Next</button>
+			<button id="submit-btn">Submit</button>
+			<button id="reset-btn">Reset</button>
+		</div>
+		<div class="quiz-result">
+			<!-- Result will be displayed here -->
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
